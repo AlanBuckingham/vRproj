@@ -39,17 +39,10 @@ We've integrated an intelligent system that dynamically evaluates users' room de
 
 
 
-User
-
-
-
 ## Equipment
 - Android Phone
 - Google Cardboard
 - HWD Bluetooth Controller (Joystick for travel and menu selection, OK Button, Power Button, Menu Button for settings menu, X Button for menu navigation, A Button for returning objects, B Button for object manipulation)
-
-### Single Player Mode
-- Launch the `.apk` and select "SINGLE PLAYER" to play in single-player mode.
 
 ## Demos
 - [Preliminary Prototype Demo](https://www.youtube.com/watch?v=8IgeLQmDzME)
