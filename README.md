@@ -30,10 +30,11 @@ To modify the controller button mappings in the Unity Editor:
 - **Selection and Manipulation**: Employ Ray-Casting with pointing metaphors for object interaction. Objects are selected and manipulated using the reticle pointer and Bluetooth Controller.
 - **System Control**: Utilize the Bluetooth Controller for system controls and interaction, including menu navigation and object manipulation.
 
-## Interaction Techniques
-- **Travel**: Utilize Gaze and Hand Directed Steering with steering metaphors. Movement is controlled by the headset's gaze direction and the hand tracker joystick.
-- **Selection and Manipulation**: Employ Ray-Casting with pointing metaphors for object interaction. Objects are selected and manipulated using the reticle pointer and Bluetooth Controller.
-- **System Control**: Utilize the Bluetooth Controller for system controls and interaction, including menu navigation and object manipulation.
+## Avatar Selection
+We designed an avatar selection scene which allow users to select their avatars. And we created our model from real human pictures using blender. Basically it is a full body and face model of a real human 
+
+## Intellegent System
+We designed a system which can intellegently grade the users decoration based on the space allocation and environment harmony. Every time the user make any change to the room, A new grade will be generated and NPC will display corresponding emojis
 
 
 ## Equipment
