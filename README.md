@@ -7,17 +7,7 @@ Welcome to **Home Decoration**, a virtual reality home decoration app developed 
 - Pratyush Kware
 - Zhouhang Sun
 - Jihan Wang
-  
-## Scenes
-Our game comprises several unique scenes, each offering different gameplay mechanics and interactions:
-- **Start Scene**: `StartScene.unity`
-- **Avatar Selection Scene**: `StartScene.unity`
 
-### Building the APK
-When building the APK for Android, ensure the following scripts are included in the "Scenes in Build":
-1. `[0] SCRIPTS/StartScene`
-2. `[1] SCRIPTS/CreateOrJoinScene`
-3. `[2] SCRIPTS/KitchenScene`
 
 ### Controller Button Mapping
 To modify the controller button mappings in the Unity Editor:
