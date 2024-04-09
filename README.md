@@ -48,4 +48,4 @@ We've integrated an intelligent system that dynamically evaluates users' room de
 - [Preliminary Prototype Demo](https://www.youtube.com/watch?v=8IgeLQmDzME)
 - [Final Prototype Demo](https://www.youtube.com/watch?v=C5bu_1EK5XU)
 
-Thank you for exploring **Home Decoration**. Dive into the culinary world of VR and unleash your cooking talents!
+Thank you for exploring **Home Decoration**. Dive into the culinary world of VR and unleash your decorating talents!
