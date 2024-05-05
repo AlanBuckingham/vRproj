@@ -1,0 +1,10 @@
+Models and Materials:
+Furniture_FREE : https://assetstore.unity.com/packages/3d/props/furniture/furniture-free-260522
+Nice Materials Pack 2 : https://assetstore.unity.com/packages/2d/textures-materials/nice-materials-pack-vol-2-67599
+StudioBillion : https://assetstore.unity.com/packages/3d/props/interior/free-house-interior-223416
+Toon Furniture : https://assetstore.unity.com/packages/3d/props/furniture/toon-furniture-88740
+Apartment Kit: https://assetstore.unity.com/packages/3d/environments/apartment-kit-124055
+
+OST:
+UI_BUTTON_OST
+MINECRAFT COPYRIGHT FREE OST
