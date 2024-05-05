@@ -8,7 +8,7 @@
 
 ## Tasks Assigned to Each Team Member and Contributions
 
-- **Pratyush Kaware:** Created the basic scene and VR functions.
+- **Pratyush Kaware:** Created the scenes and VR functions.
 - **Jihan Wang:** Developed the intelligent grading system.
 - **Shangyi Chen and Zhouhang Sun:** Created the avatars based on team members.
 
