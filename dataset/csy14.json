@@ -1,0 +1,20 @@
+{
+    "minDistance": 9.43405532836914,
+    "averageDistance": 3.483631134033203,
+    "totalObjects": 4,
+    "totalColorRange": 0.6495190262794495,
+    "furnitureCounts": [
+        {
+            "furnitureType": "sitting",
+            "count": 1
+        },
+        {
+            "furnitureType": "utility",
+            "count": 2
+        },
+        {
+            "furnitureType": "entertainment",
+            "count": 1
+        }
+    ]
+}
