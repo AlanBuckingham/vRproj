@@ -21,35 +21,31 @@ public class CharacterMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        var myObject = GameObject.Find("MainMenuEventSystem").GetComponent<MainMenuEventSystemScript>().getMainMenu().GetComponent<MainMenuFunctions>();
-        speed = myObject.getCharacterSpeed()*myObject.stopMoving;
-        //Get horizontal and Vertical movements
-        float horComp = Input.GetAxis("Horizontal");
-        float vertComp = Input.GetAxis("Vertical");
+        var currentSpeed = GameObject.Find("MainMenuEventSystem").GetComponent<MainMenuEventSystemScript>().getMainMenu().GetComponent<MainMenuFunctions>().getCharacterSpeed() * GameObject.Find("MainMenuEventSystem").GetComponent<MainMenuEventSystemScript>().getMainMenu().GetComponent<MainMenuFunctions>().stopMoving; ;
 
-        if (joyStickMode)
-        {
-            horComp = Input.GetAxis("Vertical");
-            vertComp = Input.GetAxis("Horizontal") * -1;
-        }
+        ////Get horizontal and Vertical movements
+        //float horComp = Input.GetAxis("Horizontal");
+        //float vertComp = Input.GetAxis("Vertical");
 
-        Vector3 moveVect = Vector3.zero;
+        float inputVertical = joyStickMode ? Input.GetAxis("Vertical") : Input.GetAxis("Horizontal");
+        float inputHorizontal = joyStickMode ? Input.GetAxis("Horizontal") * -1 : Input.GetAxis("Vertical");
 
-        //Get look Direction
-        Vector3 cameraLook = cameraObj.transform.forward;
-        cameraLook.y = 0f;
-        cameraLook = cameraLook.normalized;
+        // Get the camera's current forward and right vectors
+        Vector3 cameraForward = cameraObj.transform.forward;
+        Vector3 cameraRight = cameraObj.transform.right;
 
-        Vector3 forwardVect = cameraLook;
-        Vector3 rightVect = Vector3.Cross(forwardVect, Vector3.up).normalized * -1;
+        // Optionally, remove the influence of pitch (up/down tilt)
+        cameraForward.y = 0;  // Uncomment this line to restrict vertical movement
+        cameraRight.y = 0;    // Uncomment this line to restrict vertical movement
 
-        moveVect += rightVect * horComp;
-        moveVect += forwardVect * vertComp;
+        cameraForward.Normalize();
+        cameraRight.Normalize();
 
-        moveVect *= speed;
-     
+        // Calculate movement vector based on camera orientation and input
+        Vector3 movement = (cameraForward * inputVertical + cameraRight * inputHorizontal) * currentSpeed;
 
-        charCntrl.SimpleMove(moveVect);
+        // Apply the movement
+        charCntrl.SimpleMove(movement);
 
 
     }

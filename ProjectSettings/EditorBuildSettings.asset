@@ -14,8 +14,20 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/assignment02.unity
     guid: 6c60575ff86ca0e46b30f4230d9029d1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/assignment03.unity
     guid: 6e8b772179bf9f1428827c4103f9e5e9
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 9502d21736368d64086cc97424d5b473
+  - enabled: 1
+    path: Assets/Scenes/selection.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/main_scene.unity
+    guid: ebcf06810ca57c646b1e05751e63bc74
+  - enabled: 1
+    path: Assets/Scenes/End.unity
+    guid: 80455549281d8384785bfdcceb3e4c62
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: bdc7b95caf3de8d45ae452675c7ac46f, type: 2}

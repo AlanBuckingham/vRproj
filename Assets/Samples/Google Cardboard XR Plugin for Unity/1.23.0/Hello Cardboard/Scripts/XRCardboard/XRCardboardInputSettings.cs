@@ -11,6 +11,14 @@ public class XRCardboardInputSettings : ScriptableObject
     public float GazeTime => gazeTimeInSeconds;
 
 
+    //[SerializeField]
+    //string clickInputName0 = "js2";//X
+    //[SerializeField]
+    //string clickInputName1 = "js3";//Y
+    //[SerializeField]
+    //string clickInputName2 = "js5";//B
+    //[SerializeField]
+    //string clickInputName3 = "js10";//A
     [SerializeField]
     string clickInputNameX = "js2";//X
     [SerializeField]
@@ -18,7 +26,7 @@ public class XRCardboardInputSettings : ScriptableObject
     [SerializeField]
     string clickInputNameB = "js5";//B
     [SerializeField]
-    string clickInputNameA = "js10";//A
+    string clickInputNameA= "js10";//A
     [SerializeField]
     bool clickOnHover = false;
     [SerializeField, Range(.5f, 5)]

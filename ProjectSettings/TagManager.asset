@@ -7,7 +7,10 @@ TagManager:
   - object
   - context_menu
   - button
-  - furniture
+  - new_furniture
+  - furniture_sitting
+  - furniture_utility
+  - furniture_entertainment
   layers:
   - Default
   - TransparentFX

@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54d5a0573e1760842b39c9f418c64355, type: 3}
   m_Name: XRCardboardInputSettings
   m_EditorClassIdentifier: 
-  clickInputNameX: Submit
-  clickInputNameY: Submit
-  clickInputNameB: Submit
+  clickInputNameX: js2
+  clickInputNameY: js3
+  clickInputNameB: js5
   clickInputNameA: js10
   clickOnHover: 0
   gazeTimeInSeconds: 2
