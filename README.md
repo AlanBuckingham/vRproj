@@ -10,14 +10,17 @@ Welcome to **Help Me Decorate**, a virtual reality home decoration app developed
   
 ## Scenes
 Our game comprises three scenes:
-- **Start Scene**: `start_scr.unity` // Yet to be created
+- **Start Scene**: `Menu.unity` // Title Screen
 - **Avatar Selection Scene**: `selection.unity` // Present in the prototype demo.
 - **Decor Scene**: `main_scene.unity` // Present in the prototype demo.
+- **End Scene**: `End.unity` //Score and Retry screen
 
 ### Building the APK
 When building the APK for Android, ensure the following scenes are included in the "Scenes in Build":
-1. `[0] SCENES/selection`
-2. `[1] SCENES/main_scene`
+1. `[0] SCENES/Menu`
+2. `[1] SCENES/selection`
+3. `[2] SCENES/main_scene`
+4. `[3] SCENES/End`
 
 ## Interaction Techniques
 - **Travel**: Movement is controlled by the Bluetooth Controller joystick. Of course the player can look around using the phone movement.
@@ -28,7 +31,7 @@ When building the APK for Android, ensure the following scenes are included in t
 Our VR experience features a customizable avatar selection scene where users can choose the customers virtual representations. We've meticulously crafted these avatars by modeling facial features based on real human photographs using Blender and FaceBuilder. This approach ensures a more immersive and personalized experience for our users.
 
 ## Intelligent Grading System
-We've integrated an intelligent system that dynamically evaluates users' room decorations. This system considers factors such as space utilization and aesthetic harmony to assign a grade to the user's decoration efforts. With every modification made to the room, the system recalculates the grade, and the customer (NPC) respond with appropriate emojis to reflect the user's design prowess. The model will be trained on different room configurations correspondingly labelled good and bad. Every customer will have a different model based on their preferences. We will create the room configurations dataset ourselves.
+We've integrated an intelligent system that dynamically evaluates users' room decorations. This system considers factors such as space utilization and aesthetic harmony to assign a grade to the user's decoration efforts. With every modification made to the room, the system recalculates the grade and gives feedback value on the screen. The model will be trained on different room configurations correspondingly labelled good and bad. Every customer will have a different model based on their preferences. We created the room configurations dataset ourselves.
 
 ### Target Device
 Android
@@ -39,6 +42,7 @@ Android
 
 ## Demos
 - [Preliminary Prototype Demo](https://youtu.be/fvvBiin__44)
+- [Final Prototype Demo](https://www.youtube.com/watch?v=wW1ouEXEjbY)
 
 
 Thank you!
